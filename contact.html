@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>4th Dimension</title>
+</head>
+
+<body>
+
+
+
+    <nav>
+        <div class="logo">
+            <a href="index.html">4th Dimension</a>
+        </div>
+
+        <ul class="nav-links">
+            <li><a class="links" id="dg" href="discography.html">Discography</a></li>
+            <li><a class="links" id="ab" href="contact.html">Contact</a></li>
+            <li><a class="links" id="rt" href="rosters.html">Roster</a></li>
+        </ul>
+
+        <div class="burger">
+
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+
+        </div>
+    </nav>
+
+
+    <div class="contact">
+        <h1>Contact Us</h1>
+        <p>You can contact us via the form provided below</p>
+        <!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScvKVcsoT8cJgUOpm3RDiDIa0_pfJVKcy1-RmX-AJer-q2-0g/viewform?embedded=true" width="640" height="652" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> -->
+        
+        <form action="https://formspree.io/f/xgerkzaa" method="POST" class="contact-form">
+            <input class="name" type="text" name="userName" placeholder="Your Name" required autocomplete="off">
+            <input class="email" type="email" name="userEmail" placeholder="Your Email" required autocomplete="off">
+            <textarea class="message" name="userContent" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+            <div class="button-container">
+                <button type="submit" class="form-button">Submit</button>
+            </div>
+            
+        </form>
+    
+        <div class="email-contact">
+            <h2 class="footer-email">Or shoot us an email!</h2>
+            <p class="footer-email-content"><i class="fas fa-envelope"></i> thisisthefourthdimension@gmail.com</p>
+        </div>    
+
+    </div>
+
+    <script src="widget.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
